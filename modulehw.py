@@ -21,5 +21,4 @@ def mood_response(mood):
         elif mood == 'mad':
             print('the sun will come out tomorrow, if it does not rain lol')
         break
-        
 
