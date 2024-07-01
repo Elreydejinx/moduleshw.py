@@ -159,9 +159,9 @@ character.level_up()
 # building on your previously made class
 # create 3 methods
 # 1.  for displaying information about the object 
-#       or simply references an attribute within the method like attack method above
-# 2. method that takes in an extra argument other tha self
-# 3. method that alters an already existing attribute in your class
+#     or simply references an attribute within the method like attack method above
+# 2.  method that takes in an extra argument other tha self
+# 3.  method that alters an already existing attribute in your class
 
 
 

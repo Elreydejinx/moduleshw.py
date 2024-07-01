@@ -9,11 +9,17 @@
 #  a custom message based on the mood entered. This function should then be imported and used in another file "main.py".
 #Code Example:
     # mood_responses.py
-from mood_responses import main.py
+
 
 def mood_response(mood):
-        # Implement your response logic here
 
-    # main.py
-    mood = input("How are you feeling today? ")
-    print(mood_responses.mood_response(mood))
+    while True:
+        if mood == 'happy':
+            print('you must have had some cake!')
+        elif mood == 'sad':
+            print('it will git better, get it!')
+        elif mood == 'mad':
+            print('the sun will come out tomorrow, if it does not rain lol')
+        break
+        
+
